@@ -1,0 +1,33 @@
+@media (min-width:1200px) {
+    .home-content .row div:first-child {
+        /*header*/
+        order: 1;
+    }
+    .home-content .row div:last-child {
+        order: 3;
+    }
+}
+
+@media (max-width:768px) {
+    .home-content header h1, .home-content header h1:last-child {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .home-content .bloco {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        padding: 0;
+        padding-top: 2em;
+    }
+    .home-content .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .home-content header {
+        flex-wrap: wrap;
+    }
+}

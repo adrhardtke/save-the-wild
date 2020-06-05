@@ -1,0 +1,19 @@
+@media (max-width:1000px) {
+    .about-bloco-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-bloco-content .about-bloco:nth-child(3), .about-bloco-content .about-bloco:nth-child(2) {
+        width: 40%;
+    }
+}
+
+@media (max-width:800px) {
+    .about-bloco-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-bloco-content .about-bloco:nth-child(3), .about-bloco-content .about-bloco:nth-child(2) {
+        width: 100%;
+    }
+}

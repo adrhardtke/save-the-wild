@@ -1,0 +1,46 @@
+.about {
+    margin: 0 8px;
+}
+
+.about-bloco-container {
+    margin: 0 auto;
+}
+
+.about-bloco-container .follow {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.about-bloco-container .follow i {
+    margin-right: .5em;
+}
+
+.about-bloco-container .follow a {
+    color: rgb(75, 171, 66);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.175em;
+}
+
+.about-bloco-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-wrap: normal;
+}
+
+.about-bloco {
+    margin: 0 24px;
+}
+
+.about-bloco h1 {
+    color: #434343;
+    font-size: 1.125em;
+}
+
+.about-bloco p {
+    color: #A5A5A5;
+    font-size: 0.875rem;
+    /*14px*/
+    line-height: 1.375rem;
+    /*22em*/
+}
